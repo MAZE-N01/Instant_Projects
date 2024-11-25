@@ -26,7 +26,7 @@ def encode_faces(image_list):
     return encoded_faces
 
 def record_attendance(person_name):
-    with open('D:\\.folder e\\work space\\projects\\project 1\\Attendance.csv', 'r+') as file:
+    with open('C:\\Users\\mazen\\PycharmProjects\\Face_Detection\\Attendance.csv', 'r+') as file:
         data_lines = file.readlines()
         recorded_names = []
         for line in data_lines:
